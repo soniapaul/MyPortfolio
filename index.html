@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon1.jfif" type="image/png">
+
+</head>
+
+<body>
+    <header>
+        <!-- <a href="#" class="logo" style="color: rgb(0, 0, 0); margin-right: 10px;">Portfolio.</a> -->
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" style="color: black;" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" style="color: black;" onclick="toggleMenu();">About</a></li>
+            <li><a href="#education" style="color: black;" onclick="toggleMenu();">Education</a></li>
+            <li><a href="#work" style="color: black;" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#services" style="color: black;" onclick="toggleMenu();">My Skills</a></li>
+            <li><a href="#proj" style="color: black;" onclick="toggleMenu();">Projects</a></li>
+            <!-- <li><a href="#testimonial" style="color: black;" onclick="toggleMenu();">Testimonies</a></li> -->
+            <li><a href="#contact" style="color: black;" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2 style="color: white;">Hello!! I'm <br><span>Sonia Paul.</span> </h2>
+            <h3 style="color: white;">I am a Front End Web Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50" style="margin-left: 10px;">
+                <h3>I am a Frontend Dev</h3>
+                <p>Hey!!!!! This is Sonia here , I am a 1 st year student pursuing computer science engineering from SRM
+                    Institute of science and technology . I am a front-end developer and also learning c++, python, java
+                    , javascript.
+                </p>
+                <br>
+                <p>Basically I have done mine schooling from DAV Public School , and in mine 18 years of life I have
+                    learned many thighs . In everyone's life school plays a vital role in bringing their personality,
+                    confidence and same happened with me also .
+                </p>
+                <br>
+                <p>And I am always looking forward to learning new things till my end date. I love to read books and I
+                    like to travel , having fun interacting with people .</p>
+
+            </div>
+            <div class="w50">
+                <img src="aboutme.jpeg" alt="" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="Education" id="education">
+        <div class="heading">
+            <h2>Education</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50" style="display: flex; margin-left: 10px;">
+                <ul>
+                    <li style="width: 60%;">Currently pursuing B.Tech in Computer Science and Engineering from SRM
+                        Institute of Science and Technology, Kattankulathur, Chennai. </li>
+                    <br>
+                    <br>
+                    <li>Completed my schooling from D.A.V Public school, Bhilai .</li>
+                    <br>
+                    <br>
+                    <li>Scored 90.6% in my 10th(CBSE) Examinations. </li>
+                    <br>
+                    <br>
+                    <li>Scored 87% in my 12th(CBSE) Examinations.</li>
+                </ul>
+            </div>
+            <div class="w50">
+                <img src="education-hero.png" alt="" class="img">
+            </div>
+            <!-- <img src="education.jfif" alt="" style="width: 50%; height: 70%;"> -->
+        </div>
+
+        <section class="work" id="work">
+            <div class="heading">
+                <h2>Work Experience</h2>
+            </div>
+            <div class="content">
+                <div class="contentBx">
+                    <p>Since, my school days I have learnt C and C++ at a basic level. I know basics of Python. I have
+                        <br> <br> learnt web development during my first
+                        semester(frontend) and is currently improving upon my javascript. Some of my skills are <br>
+                        <br> potrayed in the section given below. Do check out! Also, wanna know
+                        more about me? Do check out my Resume as provided below!
+                    </p>
+                    <button class="btn" style="border-color: white;"> <a
+                            href="https://drive.google.com/file/d/16XMRvvQ6i6V_Co_uXFsoareq_9UIJKRf/view?usp=sharing"
+                            target="_blank" style="text-decoration: none; color: white;"> My Resume </a></button>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Skills</h2>
+            <p>We provide the following services.</p>
+
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="html.png" alt="">
+                <h2>HTML</h2>
+                <p>Average knowledge in HTML. Learnt in 1st Semester.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="css.png" alt="" style="height: 79px; width: 51px;">
+
+                <h2>CSS</h2>
+                <p>Average knowledge in CSS. Learnt in 1st Semester.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="js.png" alt="" style="    height: 81px; width: 69px;">
+                <h2>JAVASCRIPT</h2>
+                <p>Basic knowledge in Javascript . Learning till date.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="bootstrap.png" alt="">
+                <h2>Bootstrap</h2>
+                <p>Good knowledge about Bootstrap. Learnt Recently.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="content.png" alt="" style="margin-top: -18px;">
+                <h2>CONTENT WRITING</h2>
+                <p> I Love to write and in my free time I writes Quotes and captions  .</p>
+            </div>
+            <div class="servicesBx">
+                <img src="images (1).jfif" alt="">
+
+                <h2>C </h2>
+                <p>Basic knowledge on this language still a lot to learn on this.</p>
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <div class="heading" id="proj">
+            <h2>My Projects</h2>
+            <p>Our latest Works on photography are as follows!</p>
+        </div>
+        <div class="content">
+            <!-- <div class="workBx">
+                <img src="product1.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="product2.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="product3.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="product4.jpg" alt="">
+            </div> -->
+            <div class="workBx" style="border: 2px solid black;">
+                <img src="coder.jfif" alt="">
+                <div class="cont">
+                    <h3 style="margin-top: 68px; font-size: 30px;">ICODER</h3>
+                    <br> <br>
+                    <p>Made this Website using  HTML and CSS.</p>
+                    <p>You can check out by clicking the button below</p>
+                    <button class="btn" style="border-color: white;"> <a
+                            href="https://soniapaul.github.io/ICODER/" target="_blank"
+                            style="color: white; text-decoration: none;"> Check This Out!</a></button>
+                </div>
+            </div>
+            <div class="workBx" style="border: 2px solid black;">
+                <img src="pic1.jpg" alt="" style="width: 81%; margin-left: 29px;">
+                <div class="cont" style="margin-top: -55px;">
+                    <h3 style="margin-top: 95px; font-size: 30px;">Food Website</h3>
+                    <br> <br>
+                    <p style="margin-top: 6px;">A Responsive Online Food Delivery Service Website made using HTML and
+                        CSS.</p>
+                    <p>You can check out by clicking the button below</p>
+                    <button class="btn" style="border-color: white;"> <a
+                            href="https://soniapaul.github.io/Food-website/" target="_blank"
+                            style="color: white; text-decoration: none;"> Check This Out!</a></button>
+                </div>
+            </div>
+          
+        </div>
+        <div class="heading">
+            <!-- <a href="#" class="btn">View More</a> -->
+        </div>
+    </section>
+  
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p>New to this website? Feel free to contact us!</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Bhilai<br>MIG-2-2256,CHHATTISGARH<br>490026</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>9111163498</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>sp8865@srmist.edu.in</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form action="no-action.php">
+                    <input type="text" name="" placeholder="Enter your name">
+                    <input type="email" name="" placeholder="Email Here">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+
+            </div>
+        </div>
+        <div class="connect" style="margin-top: 41px;">
+            <h2 style="text-align: center; color: white;">Connect With Us:</h2>
+            <div class="icon" style="display: flex; filter: invert(1); justify-content: space-around;">
+                <h1><a href="https://github.com/soniapaul" target="_blank"><i class="fa fa-github"></i></a></h1>
+                <h1><a href="https://www.instagram.com/sonia_paul_13/" target="_blank"><i class=" fa fa-instagram"></i></a>
+                </h1>
+                <h1> <a href="https://www.linkedin.com/in/sonia-paul-107b8a203/" target="_blank"><i
+                            class="fa fa-linkedin"></i></a> </h1>
+                <h1><a href="https://twitter.com/Sonia_Paul13" target="_blank"> <i class="fa fa-twitter"></i></a> </h1>
+            </div>
+        </div>
+
+
+
+    </section>
+    <div class="copyright">
+        <p>Copyright © 2021 Online Tutorials. All Rights Reserved.</p>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrolllY > 0);
+        });
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
